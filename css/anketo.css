@@ -1,0 +1,81 @@
+@font-face {
+	font-family: 'MyFont22';
+	src: url(misaki_gothic.ttf) format("truetype");
+}
+
+@font-face {
+	font-family: 'MyFonttest';
+	src: url(PixelMplus10-Regular.ttf) format("truetype");
+}
+
+  @media (max-width: 320px ) {
+  }
+  
+  
+  @media screen and (max-width: 767px) {
+
+
+  
+}
+  
+  /*PC画面*/
+  @media screen and (min-width: 768px) {
+
+    .form-wrapper{
+      font-size: 70px;
+    }
+
+
+   
+  }
+
+.flex-box{
+    color: rgb(255, 255, 255);
+}
+
+.nes-select {
+border-image-repeat: stretch; width: 90% !important; text-align: center;
+
+text-align: center !important;
+/*コレ*/margin: auto;
+/*コレ*/display: block;
+display: block;
+text-align-last: center;
+
+}
+
+.nes-input{
+  border-image-repeat: stretch; width: 90% !important; text-align: center;
+  
+  text-align: center !important;
+  /*コレ*/margin: auto;
+  /*コレ*/display: block;
+
+  }
+
+  .nes-textarea{
+    border-image-repeat: stretch; width: 90% !important; text-align: center;
+    
+    text-align: center !important;
+    /*コレ*/margin: auto;
+    /*コレ*/display: block;
+    }
+
+  .flex-box{
+    margin-top: 30px;
+  }
+
+  .submit-btn{
+    margin-top: 20px;
+  }
+
+  #end-message{
+color: rgb(255, 255, 255);
+  }
+
+  .form-wrapper{
+    font-family: 'MyFonttest', sans-serif !important;
+	  font: bold;
+  }
+
+

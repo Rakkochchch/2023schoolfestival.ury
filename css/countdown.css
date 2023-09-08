@@ -1,0 +1,47 @@
+
+@font-face {
+	font-family: 'MyFont22';
+	src: url(misaki_gothic.ttf) format("truetype");
+}
+
+@font-face {
+	font-family: 'MyFonttest';
+	src: url(PixelMplus10-Regular.ttf) format("truetype");
+}
+
+  
+  
+  @media screen and (max-width: 767px) {
+.counter{
+    font-family: 'MyFonttest';
+    font-size: 45px;
+}
+.counterp{
+    margin-top: 200px;
+}
+.v5 {
+    display: none;
+}
+
+}
+  
+  /*PC画面*/
+  @media screen and (min-width: 768px) {
+    .v5 {
+        display: block;
+    }
+
+    .counter{
+        font-family: 'MyFonttest';
+        font-size: 100px;
+    }
+    .counterp{
+        margin-top: 200px;
+        font-size: 40px;
+    }
+  }
+
+
+
+
+  
