@@ -104,7 +104,7 @@ a {
     margin: 0%;
 }
 .followme{
-    font-family: 'Nintendoid1';
+    font-family: 'Nintendoid1' !important;
     margin: 0%;
 }
 
