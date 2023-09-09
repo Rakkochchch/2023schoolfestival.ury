@@ -49,6 +49,8 @@ iPhonでは意図しないバグが発生することがあります
 
 
 ## 参考文献
+[ファミコン風CSSフレームワーク「NES.css」][https://nostalgic-css.github.io/NES.css/]
+
 [画像をモザイクインさせるjQueryプラグイン][[linkref](http://wiz-code.digick.jp/blog/javascript-ajax/post-1795)http://wiz-code.digick.jp/blog/javascript-ajax/post-1795]
 
 [HTMLとCSSのみで出来る特殊エフェクト一覧][https://giga-tokyo.jp/effect-css/]
