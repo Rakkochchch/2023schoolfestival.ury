@@ -768,30 +768,7 @@ width: 90%;
     color: rgb(255, 0, 85);
     
 }
-.fuchidori{
-    color: #000;
-    text-shadow:1px 1px 0 #FFF, -1px -1px 0 #FFF,
-                -1px 1px 0 #FFF, 1px -1px 0 #FFF,
-                0px 1px 0 #FFF,  0-1px 0 #FFF,
-                -1px 0 0 #FFF, 1px 0 0 #FFF;
-}
 
-.fuchidori1{
-    color: #ffffff;
-    margin-bottom: 0%;
-    text-shadow:1px 1px 0 #000000, -1px -1px 0 #000000,
-                -1px 1px 0 #000000, 1px -1px 0 #000000,
-                0px 1px 0 #000000,  0-1px 0 #000000,
-                -1px 0 0 #000000, 1px 0 0 #000000;
-}
-
-.fuchidori2{
-    color: #000000;
-    text-shadow:1px 1px 0 #ffffff, -1px -1px 0 #ffffff,
-                -1px 1px 0 #ffffff, 1px -1px 0 #ffffff,
-                0px 1px 0 #ffffff,  0-1px 0 #ffffff,
-                -1px 0 0 #ffffff, 1px 0 0 #ffffff;
-}
 
 .js-flickity{
     background-color: #478dce;
@@ -915,3 +892,62 @@ text-align: center
     display: inline-block;
 }
 
+
+
+
+  
+
+
+
+/*縁取り
+
+.fuchidori{
+    color: #000;
+    text-shadow:1px 1px 0 #FFF, -1px -1px 0 #FFF,
+                -1px 1px 0 #FFF, 1px -1px 0 #FFF,
+                0px 1px 0 #FFF,  0-1px 0 #FFF,
+                -1px 0 0 #FFF, 1px 0 0 #FFF;
+}
+
+.fuchidori1{
+    color: #ffffff;
+    margin-bottom: 0%;
+    text-shadow:1px 1px 0 #000000, -1px -1px 0 #000000,
+                -1px 1px 0 #000000, 1px -1px 0 #000000,
+                0px 1px 0 #000000,  0-1px 0 #000000,
+                -1px 0 0 #000000, 1px 0 0 #000000;
+}
+
+.fuchidori2{
+    color: #000000;
+    text-shadow:1px 1px 0 #ffffff, -1px -1px 0 #ffffff,
+                -1px 1px 0 #ffffff, 1px -1px 0 #ffffff,
+                0px 1px 0 #ffffff,  0-1px 0 #ffffff,
+                -1px 0 0 #ffffff, 1px 0 0 #ffffff;
+}
+
+*/
+
+
+
+
+@media screen and (max-width: 375px) {
+    .btnjoin {
+        font-size: 14px;
+    }
+    .followme {
+        font-family: 'Nintendoid1' !important;
+        margin: 0%;
+        font-size: 30PX;
+    }
+    .join_p{
+        font-size: 32PX;
+    }
+    .join_h1 {
+        font-size: 28px !important;
+    }
+    .event_h1 {
+        font-size: 57px !important;
+    }
+  }
+  

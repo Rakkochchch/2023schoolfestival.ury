@@ -509,6 +509,7 @@ html::-webkit-scrollbar{
 
 
 
+
 html { background: #111;
 
   font-family: Nintendoid1;
@@ -522,6 +523,21 @@ html { background: #111;
   animation-iteration-count: infinite;
   animation-direction: alternate;
 }
+
+
+.phone_twi { 
+
+  font-family: Nintendoid1;
+  color: #eee;
+  text-shadow: 0.06rem 0 0.06rem #ea36af, -0.125rem 0 0.06rem #75fa69;
+  letter-spacing: 0.125em;
+  animation-duration: 0.01s;
+  animation-name: textflicker;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+
+
 h1 { font-size: 5em; }
 
 @keyframes textflicker {
@@ -530,5 +546,18 @@ text-shadow: 1px 0 0 #ea36af, -2px 0 0 #75fa69;
 }
 to {
 text-shadow: 2px 0.5px 2px #ea36af, -1px -0.5px 2px #75fa69;
+}
+}
+
+
+
+
+@media screen and (max-width: 375px) {
+  .p_start_yesno {
+    color: #ffffff;
+    margin: 0%;
+    margin-top: 210px;
+    font-size: 37px;
+    text-align: center;
 }
 }
