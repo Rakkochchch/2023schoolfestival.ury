@@ -569,4 +569,10 @@ text-shadow: 2px 0.5px 2px #ea36af, -1px -0.5px 2px #75fa69;
   font-size: 27px;
   font-weight: bold;
 }
+    ul {
+        list-style-type: "";
+        padding: 0;
+        color: aliceblue;
+        margin: 0;
+    }
 }
