@@ -1,14 +1,16 @@
 ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/rakkochchch/2023schoolfestival.ury)
 
 # 2023年度文化祭ホームページ
-html
 
-css
+##使用したフォント
 
-javascript
+PixelMplus10-Regular
 
-を使用して制作された静的サイトです
+misaki_gothic.ttf
 
+DotGothic16
+
+Nintendoid 1
 
 ## デモ
 
@@ -32,8 +34,8 @@ DEMOの実行方法など、"Webアプリ"の基本的な使い方を説明
 
 
 ## 注意事項
+iPhonシリーズでは意図しないバグが発生することがあります
 
-注意点などがあれば書く
 
 
 ## 文責
@@ -45,7 +47,7 @@ DEMOの実行方法など、"Webアプリ"の基本的な使い方を説明
 
 ライセンスを明示する
 
-"リポジトリ名" is under [MIT license](https://en.wikipedia.org/wiki/MIT_License).
+"Breadcrumbs2023schoolfestival.ury" is under [MIT license](https://en.wikipedia.org/wiki/MIT_License).
 
 
 ## 参考文献
