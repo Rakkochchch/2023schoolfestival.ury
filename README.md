@@ -32,7 +32,7 @@ DEMOの実行方法など、"Webアプリ"の基本的な使い方を説明
 
 
 ## 注意事項
-iPhonシリーズでは意図しないバグが発生することがあります
+iPhonでは意図しないバグが発生することがあります
 
 
 
@@ -49,5 +49,5 @@ iPhonシリーズでは意図しないバグが発生することがあります
 
 
 ## 参考文献
-
-参考にした情報源（サイト・論文）などの情報、リンク
+[画像をモザイクインさせるjQueryプラグイン][[linkref](http://wiz-code.digick.jp/blog/javascript-ajax/post-1795)http://wiz-code.digick.jp/blog/javascript-ajax/post-1795]
+[HTMLとCSSのみで出来る特殊エフェクト一覧][https://giga-tokyo.jp/effect-css/]
