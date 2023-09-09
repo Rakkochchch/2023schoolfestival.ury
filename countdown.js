@@ -9,7 +9,7 @@ function nanNichi(){
 const d1 = new Date();
 
 //ターゲット日時
-const d2 = new Date('2023/09/16 09:30'); //令和元年
+const d2 = new Date('2023/09/16 09:00'); //令和元年
 //時差（ミリ秒）
 const d3 = d2 - d1;
 // ミリ秒から秒に
