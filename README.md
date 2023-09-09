@@ -38,8 +38,8 @@ Microsoft Edge（最新バージョン；Chromium ベースのみ）
 
 MacOS 10.12 またはそれ以上
 
-Google Chrome（最新バージョン
-）
+Google Chrome（最新バージョン）
+
 Safari（最新バージョン）
 
 最適な結果には、Google Chrome の最新バージョンを使用してください。
@@ -57,6 +57,9 @@ iOS 10 またはそれ以上
 Google Chrome（最新バージョン）
 
 Safari（最新バージョン）
+:::note warn
+iPhone6/7/8では意図しないバグが発生します
+:::
 ```
 
 
