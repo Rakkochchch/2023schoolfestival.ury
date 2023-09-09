@@ -58,12 +58,11 @@ Google Chrome（最新バージョン）
 
 Safari（最新バージョン）
 
-**Warning**
-iPhone6/7/8では意図しないバグが発生します
-```
-**Warning**
-iPhone6/7/8では意図しないバグが発生します
 
+```
+:::note alert
+iPhone6/7/8では意図しないバグが発生します
+:::
 
 
 ## 注意事項
