@@ -13,7 +13,7 @@ DotGothic16
 Nintendoid 1
 
 ## デモ
-https://rakkochchch.github.io/2023schoolfestival.ury/picture/2023%E5%B9%B4%E6%96%87%E5%8C%96%E7%A5%AD%E3%83%9B%E3%83%BC%E3%83%A0%20-%20Google%20Chrome%202023_09_09%2019_17_58.png
+![2023年文化祭ホーム - Google Chrome 2023_09_09 19_17_58](https://github.com/Rakkochchch/2023schoolfestival.ury/assets/124496617/003657ae-e38a-46ab-abe2-3b890fad1789)
 
 ## 使い方
 
