@@ -27,24 +27,35 @@ DEMOの実行方法など、"Webアプリ"の基本的な使い方を説明
 ## 環境
 
 デスクトップブラウザー
-GoodData は以下のデスクトップブラウザーでテストされ、サポートされています。
 
 Microsoft Windows 10 またはそれ以上 
+
 Google Chrome（最新バージョン）
+
 Firefox（最新バージョン）
+
 Microsoft Edge（最新バージョン；Chromium ベースのみ）
+
 MacOS 10.12 またはそれ以上
-Google Chrome（最新バージョン）
+
+Google Chrome（最新バージョン
+）
 Safari（最新バージョン）
+
 最適な結果には、Google Chrome の最新バージョンを使用してください。
 
 モバイルウェブブラウザー
+
 以下のモバイルブラウザーでダッシュボードを表示できます：
 
 Android 5 またはそれ以上
+
 Google Chrome（最新バージョン）
+
 iOS 10 またはそれ以上 
+
 Google Chrome（最新バージョン）
+
 Safari（最新バージョン）
 
 
