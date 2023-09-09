@@ -1,13 +1,10 @@
 ![GitHub code size in bytes](https://img.shields.io/github/languages/code-size/rakkochchch/2023schoolfestival.ury)
 
-
-# 2023schoolfestival.ury
-
-
-
-# リポジトリ名
-
-概要を記述する
+# 2023年度文化祭ホームページ
+html
+css
+javascript
+を使用して制作された静的サイトです
 
 
 ## デモ
