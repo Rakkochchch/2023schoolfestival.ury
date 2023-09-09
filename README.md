@@ -57,11 +57,11 @@ iOS 10 またはそれ以上
 Google Chrome（最新バージョン）
 
 Safari（最新バージョン）
+
+```
 :::note warn
 iPhone6/7/8では意図しないバグが発生します
 :::
-```
-
 
 
 
