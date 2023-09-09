@@ -16,14 +16,11 @@ Nintendoid 1
 ![2023年文化祭ホーム - Google Chrome 2023_09_09 19_17_58](https://github.com/Rakkochchch/2023schoolfestival.ury/assets/124496617/003657ae-e38a-46ab-abe2-3b890fad1789)
 
 ## 使い方
+<details>
+  
+[ページへ移る](https://rakkochchch.github.io/2023schoolfestival.ury/home)
 
-DEMOの実行方法など、"Webアプリ"の基本的な使い方を説明
-
-1. 使い方
-2. 使い方
-3. 使い方
-
-
+</details>
 ## 環境
 
 **デスクトップブラウザー**
