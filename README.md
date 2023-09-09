@@ -38,12 +38,7 @@ DEMOの実行方法など、"Webアプリ"の基本的な使い方を説明
 
 ## 文責
 
-作成情報を列挙する
-
-* 作成者
-* 所属
-* E-mail
-* [@twitter_username](https://twitter.com/twitter_username)
+* 制作者:　RYO
 
 
 ## ライセンス
