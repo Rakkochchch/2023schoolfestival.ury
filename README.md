@@ -21,6 +21,7 @@ Nintendoid 1
 [ページへ移る](https://rakkochchch.github.io/2023schoolfestival.ury/home)
 
 </details>
+
 ## 環境
 
 **デスクトップブラウザー**
