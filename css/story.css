@@ -229,6 +229,9 @@ a {
   border-image-slice: 3;
   border-image-width: 4;
   font-size: 30px;
+  margin: auto;
+  width: auto;
+
 }
 
 .startyesno{
@@ -510,7 +513,7 @@ html::-webkit-scrollbar{
 
 
 
-html { background: #111;
+html { background: black;
 
   font-family: Nintendoid1;
   color: #eee;
