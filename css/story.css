@@ -563,4 +563,10 @@ text-shadow: 2px 0.5px 2px #ea36af, -1px -0.5px 2px #75fa69;
     font-size: 37px;
     text-align: center;
 }
+
+.copytxt {
+  margin: 0px;
+  font-size: 27px;
+  font-weight: bold;
+}
 }
