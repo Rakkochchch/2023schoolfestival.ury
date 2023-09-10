@@ -141,7 +141,7 @@ a {
     }
 
     .menu_box_sns{
-        font-size: 33px;
+        font-size: 31px;
     }
 
     .googlemap{
@@ -934,7 +934,7 @@ text-align: center
 
 
 
-@media screen and (max-width: 375px) {
+@media screen and (max-width: 376px) {
     .btnjoin {
         font-size: 14px;
     }
@@ -957,6 +957,10 @@ text-align: center
         padding: 0;
         color: aliceblue;
         margin: 0;
+    }
+
+    .menu_box_sns {
+        font-size: 31px;
     }
   }
   
