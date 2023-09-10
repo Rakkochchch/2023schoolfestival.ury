@@ -1,0 +1,189 @@
+
+  
+    @media (max-width: 320px ) {
+
+  }
+    
+  @media screen and (max-width: 767px) {
+    .test121
+    {
+        font-size: 40px;
+    }
+
+}
+
+    /*PC画面*/
+    @media screen and (min-width: 768px) {
+        .test121
+        {
+            font-size: 40px;
+        }
+  .nes-container.text-center{
+    margin-left: 40px;
+    margin-right: 40px;
+    margin: auto;
+    
+  }
+  #ff{
+    width: 64% !important;
+    margin: auto;
+    
+  }
+
+  .nes-container.is-rounded.is-dark {
+    border-image-slice: 3;
+    border-image-width: 4;
+
+}
+.result{
+    margin-bottom: 70px !important;
+    margin-bottom: 60px !important;
+}
+.share_box{
+    margin-left: 40px;
+    margin-right: 40px;
+    margin: auto;  
+}
+    }
+  
+  
+
+  
+  
+  
+  
+
+  
+  
+  
+  
+  @media screen and (max-width: 375px) {
+    .p_start_yesno {
+      color: #ffffff;
+      margin: 0%;
+      margin-top: 210px;
+      font-size: 37px;
+      text-align: center;
+  }
+  
+  .copytxt {
+    margin: 0px;
+    font-size: 27px;
+    font-weight: bold;
+  }
+  .test121
+  {
+      font-size: 37px;
+  }
+  #btnstart{
+    font-size: 25px !important;
+  }
+
+  .job {
+    font-size: 22px;
+}
+
+  }
+
+  html {
+    color: rgb(255, 255, 255);
+  }
+
+  .nes-container.is-dark {
+
+    background-color: #000000;
+    
+
+}
+
+
+
+
+#ff {
+    letter-spacing: 2px;
+} 
+
+#mainclass{
+    color: #fff !important;
+}
+
+.app-theme1{
+    font-size: 30px;
+}
+.q_00 {
+    font-size: 25px;
+}
+
+
+
+p {
+    margin-top: 0;
+    margin-bottom: 0rem;
+}
+
+#answer_0032{
+    margin-bottom: 60px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    margin-top: 0;
+    margin-bottom: -0.5rem;
+}
+
+.q_00{
+    margin-top: 70px;
+}
+
+.startpop{
+    margin-top: 100px;
+}
+
+
+
+.result_theme{
+    margin-top: 80px;
+}
+
+
+
+
+  
+  .share {
+    width:fit-content;
+    font-size: 26px;
+    text-align: start;
+  }
+  
+
+  
+  .share_sns {
+    width: 70px;
+    vertical-align: bottom;
+    text-align:justify;
+    text-align-last:justify;
+    line-height: 90px;
+  }
+  
+
+  .share_box {
+    list-style-type: "";
+    /* display: flex; */
+    /* justify-content: center; */
+    /* background-color: #000000; */
+    /* color: aliceblue; */
+    /* border-radius: 10px; */
+    /* border: 6px solid #ffffff; */
+    /* background-color: #181818; */
+    font-size: 30px;
+    /* text-align: center; */
+    text-align: justify;
+    line-height: 80px;
+
+    text-align: start;
+}
+
+
+.test122{
+
+    margin-top: 20px;
+}
