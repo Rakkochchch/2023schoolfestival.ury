@@ -1,9 +1,4 @@
 
-  
-    @media (max-width: 320px ) {
-
-  }
-    
   @media screen and (max-width: 767px) {
     .test121
     {
@@ -13,6 +8,12 @@
     .startpop{
         font-size: 30px;
     }
+    .q_00{
+        margin-top: 50px;
+    }
+    
+
+    
 
 }
 
@@ -48,6 +49,11 @@
     margin-right: 40px;
     margin: auto;  
 }
+
+.startpop{
+    margin-top: 100px;
+}
+
     }
   
   
@@ -86,6 +92,11 @@
   .job {
     font-size: 22px;
 }
+
+.startpop{
+    margin-top: 10px !important;
+}
+
 
   }
 
@@ -134,13 +145,7 @@ h1, h2, h3, h4, h5, h6 {
     margin-bottom: -0.5rem;
 }
 
-.q_00{
-    margin-top: 70px;
-}
 
-.startpop{
-    margin-top: 100px;
-}
 
 
 
