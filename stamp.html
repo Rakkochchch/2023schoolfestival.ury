@@ -16,27 +16,30 @@
 
 
 
+  <link href="https://appsol-one.com/custom/00-page/top/nes.min.css" rel="stylesheet" />
 
 
 
 
 
 
-
-
+  <script class="img_loop" src="https://appsol-one.com/custom/00-page/top/typed.js"></script>
 
   
 <link rel="shortcut icon" href="sns\tsurugi_bronze_blue.ico">
 <link rel="apple-touch-icon" sizes="152x152" href="sns\tsurugi_bronze_blue (1).png">
 
 
-
+<link rel="stylesheet" type="text/css" href="css/stamp.css">
+<link rel="stylesheet" type="text/css" href="css/anketo.css">
+<link rel="stylesheet" type="text/css" href="css/story.css">
+<link rel="stylesheet" type="text/css" href="css/home.css">
 
 
 
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link rel="stylesheet" type="text/css" href="css/indexx.css">
+
   <script src="https://kit.fontawesome.com/41cf5e174a.js" crossorigin="anonymous"></script>
 
 
@@ -51,15 +54,97 @@
 
 </head>
 <body>
-  <header class="header">
-    <a href="https://rakkochchch.github.io/2023schoolfestival.ury/home">
-    <p class="head_name">TOBE<img class="svgfile" src="game_controller_gray.svg" alt="" >CONTINUE</p>
-  </a>
-  </header>
+
+
+
+
+  <div class="content_body">
+    <header>
+      <div class="header__inner">
+        <h1 class="header__title header-title">
+          <a id="tobe_header" href="https://rakkochchch.github.io/2023schoolfestival.ury/home">tobe</a>
+        </h1>
+      <div class="header_container">
+  
+        <div class="hamburger" id="hamburgerid" onclick="humburger()" style="display: block;">
+          <span class="hamburger_bar"></span>
+          <span class="hamburger_bar" id="humburger_id"></span>
+          <span class="hamburger_bar"></span>
+        </div>
+        <div class="hamburger" id="hamburgerid2" onclick="humburger2()" style="display: none;">
+          <span class="hamburger_bar"></span>
+          <span class="hamburger_bar" style="display: none;"></span>
+          <span class="hamburger_bar"></span>
+        </div>
+  
+  
+        </div>
+  
+  
+      </div>
+    </header>
+    <nav class="sample_sp_menu" id="nav_menu" style="display: none;">
+      <ul>
+          <li><a href="https://rakkochchch.github.io/2023schoolfestival.ury/home">HOME</a></li>
+          <li>NEWS</li>
+          <li><a href="https://rakkochchch.github.io/2023schoolfestival.ury/story">STORY</a></li>
+          <li><a href="https://rakkochchch.github.io/2023schoolfestival.ury/cntact">CONTACT</a></li>
+          <li><a href="https://rakkochchch.github.io/2023schoolfestival.ury/anketo">アンケート</a></li>
+      </ul>
+    </nav>
+  
+  </div>
+  
+  <script>
+  document.getElementById("nav_menu").style.display ="none";
+  function humburger(){
+  const p1 = document.getElementById("hamburgerid");
+  const p2 = document.getElementById("nav_menu");
+  const p3 = document.getElementById("hamburgerid2");
+  const p4 = document.getElementById("main22");
+  const p5 = document.getElementById("footer_id");
+  const p6 = document.getElementById("twitterclass")
+  const p7 = document.getElementById("instagramclass")
+  
+  if(p2.style.display === "none"){
+    p2.style.display = "block"
+    p1.style.display = "none"
+    p3.style.display = "block"
+    p4.style.display = "none"
+    p5.style.display = "none"
+    p6.style.display = "none"
+    p7.style.display = "none"
+  
+  }else{}}
+  
+  function humburger2(){
+  const p1 = document.getElementById("hamburgerid");
+  const p2 = document.getElementById("nav_menu");
+  const p3 = document.getElementById("hamburgerid2");
+  const p4 = document.getElementById("main22");
+  const p5 = document.getElementById("footer_id");
+  
+  if(p2.style.display === "block"){
+    p2.style.display = "none"
+    p1.style.display = "block"
+    p3.style.display = "none"
+    p4.style.display = "block"
+    p5.style.display = "block"
+  
+  }else{}}
+  </script>
+
+
+
+
+
+
+
+
 <main id="mainclass">
 <div class="choose_box">
       <div class="app-theme">
-        <p class="app-theme1">あなたの役職診断(全6問) </p>
+        <p class="app-theme1"> </p>
       </div>
       <p id="transparent_p" style="display: block;">&nbsp;</p>
 
@@ -70,16 +155,22 @@
       <div id="q_000" >
 
         <div class="startpop">
-        <a id="btnstart" class="btn" href="#q_01"><h1 class="btnstarth1">診断スタート</h1></a>
-        </div>
+        <a id="btnstart" class="btn" href="#q_01" ><span id="typed-sample"></span></a>
+                </div>
       </div>
       <!-- 質問1class="fit" -->
       <div id="q_01" style="display: none;">
-        <p class="q_00" id="q_01_P" >質問1:モノづくりが好きだ</p>
-        <ul class="menu_box">
-          <li><a  id="btnb" class="btn" href="#q_02" data-value="a">>当てはまる&nbsp;&nbsp;&nbsp;&nbsp;</a></li>
-          <li><a  id="btnb" class="btn" href="#q_02" data-value="b">>判断できない&nbsp;&nbsp;</a></li>
-          <li><a  id="btnb" class="btn" href="#q_02" data-value="c">>当てはまらない</a></li>
+      <p class="q_00" id="q_01_P" >質問1:モノづくりが好きだ</p>
+      <ul class="menu_box">
+        <section id="ff" class="nes-container w-full is-dark is-rounded text-center" 
+        style="border-image-repeat: stretch;">
+
+          <li><a  id="btnb" class="btn" href="#q_02" data-value="a" onclick="type3in()"><span id="typed-sample2_1"></span></a></li>
+          <li><a  id="btnb" class="btn" href="#q_02" data-value="b" onclick="type3in()"><span id="typed-sample2_2"></span></a></li>
+          <li><a  id="btnb" class="btn" href="#q_02" data-value="c" onclick="type3in()"><span id="typed-sample2_3"></span></a></li>
+
+        </section>
+
         </ul>
         <p>&nbsp;</p>
         <p>&nbsp;</p>
@@ -87,11 +178,14 @@
 
       <!-- 質問2 -->
       <div id="q_02" style="display: none;">
-        <p class="q_00" id="q_02_P">質問2:対面で話すのが得意だ</p>
+<p class="q_00" id="q_02_P">質問2:対面で話すのが得意だ</p>
         <ul class="menu_box">
-          <li><a  id="btnb" class="btn" href="#q_03" data-value="a">>当てはまる&nbsp;&nbsp;&nbsp;&nbsp;</a></li>
-          <li><a  id="btnb" class="btn" href="#q_03" data-value="b">>判断できない&nbsp;&nbsp;</a></li>
-          <li><a  id="btnb" class="btn" href="#q_03" data-value="c">>当てはまらない</a></li>
+          <section id="ff" class="nes-container w-full is-dark is-rounded text-center" 
+          style="border-image-repeat: stretch; ">
+          <li><a  id="btnb" class="btn" href="#q_03" onclick="type4in()" data-value="a"><span id="typed-sample3_1"></span></a></li>
+          <li><a  id="btnb" class="btn" href="#q_03" onclick="type4in()" data-value="b"><span id="typed-sample3_2"></span></a></li>
+          <li><a  id="btnb" class="btn" href="#q_03" onclick="type4in()" data-value="c"><span id="typed-sample3_3"></span></a></li>
+        </section>
         </ul>
         <p>&nbsp;</p>
         <p>&nbsp;</p>
@@ -102,9 +196,13 @@
       <div id="q_03" style="display: none;">
         <p class="q_00">質問3:発想力が豊かだ</p>
         <ul class="menu_box">
-          <li><a  id="btnb" class="btn" href="#q_04" data-value="a">>当てはまる&nbsp;&nbsp;&nbsp;&nbsp;</a></li>
-          <li><a  id="btnb" class="btn" href="#q_04" data-value="b">>判断できない&nbsp;&nbsp;</a></li>
-          <li><a  id="btnb" class="btn" href="#q_04" data-value="c">>当てはまらない</a></li>
+
+          <section id="ff" class="nes-container w-full is-dark is-rounded text-center" 
+          style="border-image-repeat: stretch; ">
+          <li><a  id="btnb" class="btn" href="#q_04" onclick="type5in()" data-value="a"><span id="typed-sample4_1"></span></a></li>
+          <li><a  id="btnb" class="btn" href="#q_04" onclick="type5in()" data-value="b"><span id="typed-sample4_2"></span></a></li>
+          <li><a  id="btnb" class="btn" href="#q_04" onclick="type5in()" data-value="c"><span id="typed-sample4_3"></span></a></li>
+        </section>
         </ul>
         <p>&nbsp;</p>
         <p>&nbsp;</p>
@@ -114,9 +212,13 @@
       <div id="q_04" style="display: none;">
         <p class="q_00">質問4:個性的だと思う</p>
         <ul class="menu_box">
-          <li><a  id="btnb" class="btn" href="#q_05" data-value="a">>当てはまる&nbsp;&nbsp;&nbsp;&nbsp;</a></li>
-          <li><a  id="btnb" class="btn" href="#q_05" data-value="b">>判断できない&nbsp;&nbsp;</a></li>
-          <li><a  id="btnb" class="btn" href="#q_05" data-value="c">>当てはまらない</a></li>
+          
+          <section id="ff" class="nes-container w-full is-dark is-rounded text-center" 
+          style="border-image-repeat: stretch; ">
+          <li><a  id="btnb" class="btn" href="#q_05" onclick="type6in()" data-value="a"><span id="typed-sample5_1"></span></a></li>
+          <li><a  id="btnb" class="btn" href="#q_05" onclick="type6in()" data-value="b"><span id="typed-sample5_2"></span></a></li>
+          <li><a  id="btnb" class="btn" href="#q_05" onclick="type6in()" data-value="c"><span id="typed-sample5_3"></span></a></li>
+        </section>
         </ul>
         <p>&nbsp;</p>
         <p>&nbsp;</p>
@@ -126,9 +228,12 @@
       <div id="q_05" style="display: none;">
         <p class="q_00">質問5:周囲に流されない</p>
         <ul class="menu_box">
-          <li><a  id="btnb" class="btn" href="#q_06" data-value="a">>当てはまる&nbsp;&nbsp;&nbsp;&nbsp;</a></li>
-          <li><a  id="btnb" class="btn" href="#q_06" data-value="b">>判断できない&nbsp;&nbsp;</a></li>
-          <li><a  id="btnb" class="btn" href="#q_06" data-value="c">>当てはまらない</a></li>
+          <section id="ff" class="nes-container w-full is-dark is-rounded text-center" 
+          style="border-image-repeat: stretch;">
+          <li><a  id="btnb" class="btn" href="#q_06" onclick="type7in()" data-value="a"><span id="typed-sample6_1"></span></a></li>
+          <li><a  id="btnb" class="btn" href="#q_06" onclick="type7in()" data-value="b"><span id="typed-sample6_2"></span></a></li>
+          <li><a  id="btnb" class="btn" href="#q_06" onclick="type7in()" data-value="c"><span id="typed-sample6_3"></span></a></li>
+        </section>
         </ul>
         <p>&nbsp;</p>
         <p>&nbsp;</p>
@@ -138,13 +243,17 @@
       <div id="q_06" style="display: none;">
         <p class="q_00" id="q_06_P">質問6:休日の過ごし方は？</p>
         <ul class="menu_box">
-          <li><a  id="btnb" class="btn end"  href="#" data-value="a">>勉強する&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</a></li>
-          <li><a  id="btnb" class="btn end"  href="#" data-value="b">>友達と出かける</a></li>
-          <li><a  id="btnb" class="btn end"  href="#" data-value="c">>のんびりする&nbsp;&nbsp;</a></li>
+          <section id="ff" class="nes-container w-full is-dark is-rounded text-center" 
+          style="border-image-repeat: stretch; ">
+          <li><a  id="btnb" class="btn end"  href="#" data-value="a"><span id="typed-sample7_1"></span></a></li>
+          <li><a  id="btnb" class="btn end"  href="#" data-value="b"><span id="typed-sample7_2"></span></a></li>
+          <li><a  id="btnb" class="btn end"  href="#" data-value="c"><span id="typed-sample7_3"></span></a></li>
+        </section>
         </ul>
         <p>&nbsp;</p>
         <p>&nbsp;</p>
       </div>
+
 
 
 
@@ -154,8 +263,11 @@
   <div id="answer_01" class="result" style="display: none;">
     <div class="result_theme ">
     </div>
+
       <div id="answer_0000">
         <div class="ddddd">
+          <div class="nes-container w-full is-dark is-rounded text-center"
+          style="border-image-repeat: stretch;">
           <div class="result_type0 ">
                 <h4 class="job">あなたは『英雄』タイプ</h4>
           </div>
@@ -165,22 +277,29 @@
               あなたは自己主張強いので英雄に向いています。英雄はどんな役職にもつくことができます。
             </p>
           </div>
-          </div>
         </div>
+          </div>
+        </div>        
+
         <ul id="share_boxid1" class="share_box" style="display: none;">
+          <div id="ff" class="nes-container w-full is-dark is-rounded text-center"
+          style="border-image-repeat: stretch;">
           <li> <a class="share" href="https://twitter.com/intent/tweet?url=https://rakkochchch.github.io/2023schoolfestival.ury/stamp&text=%E7%A7%81%E3%81%AF%E3%80%8E%E8%8B%B1%E9%9B%84%E3%80%8F%E3%82%BF%E3%82%A4%E3%83%97%E3%81%A7%E3%81%97%E3%81%9F%0A%F0%9F%92%A1%E3%82%81%E3%81%A3%E3%81%A1%E3%82%83%E8%87%AA%E5%B7%B1%E4%B8%BB%E5%BC%B5%0A%F0%9F%92%A1%E3%82%81%E3%81%A3%E3%81%A1%E3%82%83%E3%81%99%E3%81%94%E3%81%84&hashtags=%E4%BA%AC%E9%83%BD%E8%8A%B8%E8%A1%93%E5%A4%A7%E5%AD%A6%E9%99%84%E5%B1%9E%E9%AB%98%E7%AD%89%E5%AD%A6%E6%A0%A1&hashtags=%E6%96%87%E5%8C%96%E7%A5%AD" target="_blank" rel="nofollow noopener noreferrer"><img class="share_sns" src="sns\sns_twitter.png">twitterで共有する</a></li>
-          <li> <a href="http://line.me/R/msg/text/?https://rakkochchch.github.io/2023schoolfestival.ury/stamp%0a私は『英雄』タイプでした%0a💡めっちゃ自己主張%0a💡めっちゃすごい" target="_blank" rel="nofollow noopener"><img class="share_sns" src="sns\2023-08-22_02.04.11.png">LINEで共有する</a></li>
-          <li> <a class="share" id="copy" onclick="clickcopy('https://rakkochchch.github.io/2023schoolfestival.ury/stamp?\n私は『英雄』タイプでした\n💡めっちゃ自己主張\n💡めっちゃすごい')"><img class="share_sns" src="sns\copydot.png">コピーで共有する</a></li>
-          
+          <li> <a href="http://line.me/R/msg/text/?https://rakkochchch.github.io/2023schoolfestival.ury/stamp%0a私は『英雄』タイプでした%0a💡めっちゃ自己主張%0a💡めっちゃすごい" target="_blank" rel="nofollow noopener"><img class="share_sns" src="sns\2023-08-22_02.04.11.png">LINEで共有する&nbsp;</a></li>
+          <li> <a class="share" id="copy" onclick="clickcopy('https://rakkochchch.github.io/2023schoolfestival.ury/stamp?\n私は『英雄』タイプでした\n💡めっちゃ自己主張\n💡めっちゃすごい')"><img class="share_sns" src="sns\copydot.png">コピーで共有する&nbsp;</a></li>
+                  </div>
         </ul>
+
         <button class="share_btn" onclick="clickSherebox2('share_boxid1','answer_0000','answer_0001')">結果を共有する</button>
 
           <div class="return-btn">
             <a id="answer_0001" class="return" href="https://rakkochchch.github.io/2023schoolfestival.ury/stamp">やり直す</a>
           </div>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
+          <p>&nbsp;</p>
 
-          <p>&nbsp;</p>
-          <p>&nbsp;</p>
+
      </div>
    </div>
 
@@ -188,37 +307,44 @@
 <!-- twitter -->
 
 <!-- 回答の答え2 -->
-   <div id="answer_02" style="display: none;">
-        <div class="result_theme ">    
+    <div id="answer_02" style="display: none;">
+          <div class="result_theme ">    
     </div>
-    <div id="answer_0011">
-    <div class="ddddd">
-    <div class="result_type1 ">
-          <h4 class="job">あなたは『ヒーラー』タイプ</h4>
+
+
+            <div id="answer_0011">
+              <div class="ddddd">
+                <div class="nes-container w-full is-dark is-rounded text-center"
+                style="border-image-repeat: stretch; width: 100% !important; text-align: center;">
+                    <div class="result_type1 ">
+                      <h4 class="job">あなたは『ヒーラー』タイプ</h4>
+                    </div>
+                    <div class="result_discription1">
+                      <h2 class="test121">発想力豊かな人</h2><P class="PVV">&</P><h2 class="test121">親しまれやすい</h2>
+                      <p class="test122">あなたはその言葉遣いで、いつの間にか仲間の心を癒すのが得意。</p>
+                    </div>
+              </div>
+            </div>
     </div>
-    <div class="result_discription1">
-      <h2 class="test121">発想力豊かな人</h2><P class="PVV">&</P><h2 class="test121">親しまれやすい</h2>
-      <p class="test122">
-        あなたはその言葉遣いで、いつの間にか仲間の心を癒すのが得意。
-      </p>
-    </div>
-  </div>
+
+
+<ul id="share_boxid2" class="share_box" style="display: none;">
+  <div id="ff" class="nes-container w-full is-dark is-rounded text-center"
+  style="border-image-repeat: stretch; ">
+
+  <li> <a class="share" href="https://twitter.com/intent/tweet?url=https://rakkochchch.github.io/2023schoolfestival.ury/stamp&text=%E7%A7%81%E3%81%AF%E3%80%8E%E3%83%92%E3%83%BC%E3%83%A9%E3%83%BC%E3%80%8F%E3%82%BF%E3%82%A4%E3%83%97%E3%81%A7%E3%81%97%E3%81%9F%0A%F0%9F%92%A1%E7%99%BA%E6%83%B3%E5%8A%9B%E8%B1%8A%E3%81%8B%E3%81%AA%E4%BA%BA%0A%F0%9F%92%A1%E8%A6%AA%E3%81%97%E3%81%BE%E3%82%8C%E3%82%84%E3%81%99%E3%81%84%0A&hashtags=%E4%BA%AC%E9%83%BD%E8%8A%B8%E8%A1%93%E5%A4%A7%E5%AD%A6%E9%99%84%E5%B1%9E%E9%AB%98%E7%AD%89%E5%AD%A6%E6%A0%A1&hashtags=%E6%96%87%E5%8C%96%E7%A5%AD" target="_blank" rel="nofollow noopener noreferrer"><img class="share_sns" src="sns\sns_twitter.png">twitterで共有する</a></li>
+  <li> <a href="http://line.me/R/msg/text/?https://rakkochchch.github.io/2023schoolfestival.ury/stamp%0a私は『ヒーラー』タイプでした%0a💡発想力豊かな人%0a💡親しまれやすい" target="_blank" rel="nofollow noopener"><img class="share_sns" src="sns\2023-08-22_02.04.11.png">LINEで共有する&nbsp;</a></li>
+  <li> <a class="share" id="copy" onclick="clickcopy('https://rakkochchch.github.io/2023schoolfestival.ury/stamp?\n私は『ヒーラー』タイプでした\n💡発想力豊かな人\n💡親しまれやすい')"><img class="share_sns" src="sns\copydot.png">コピーで共有する&nbsp;</a></li>
 </div>
-    <ul id="share_boxid2" class="share_box" style="display: none;">
-      <li> <a class="share" href="https://twitter.com/intent/tweet?url=https://rakkochchch.github.io/2023schoolfestival.ury/stamp&text=%E7%A7%81%E3%81%AF%E3%80%8E%E3%83%92%E3%83%BC%E3%83%A9%E3%83%BC%E3%80%8F%E3%82%BF%E3%82%A4%E3%83%97%E3%81%A7%E3%81%97%E3%81%9F%0A%F0%9F%92%A1%E7%99%BA%E6%83%B3%E5%8A%9B%E8%B1%8A%E3%81%8B%E3%81%AA%E4%BA%BA%0A%F0%9F%92%A1%E8%A6%AA%E3%81%97%E3%81%BE%E3%82%8C%E3%82%84%E3%81%99%E3%81%84%0A&hashtags=%E4%BA%AC%E9%83%BD%E8%8A%B8%E8%A1%93%E5%A4%A7%E5%AD%A6%E9%99%84%E5%B1%9E%E9%AB%98%E7%AD%89%E5%AD%A6%E6%A0%A1&hashtags=%E6%96%87%E5%8C%96%E7%A5%AD" target="_blank" rel="nofollow noopener noreferrer"><img class="share_sns" src="sns\sns_twitter.png">twitterで共有する</a></li>
-      <li> <a href="http://line.me/R/msg/text/?https://rakkochchch.github.io/2023schoolfestival.ury/stamp%0a私は『ヒーラー』タイプでした%0a💡発想力豊かな人%0a💡親しまれやすい" target="_blank" rel="nofollow noopener"><img class="share_sns" src="sns\2023-08-22_02.04.11.png">LINEで共有する</a></li>
-      <li> <a class="share" id="copy" onclick="clickcopy('https://rakkochchch.github.io/2023schoolfestival.ury/stamp?\n私は『ヒーラー』タイプでした\n💡発想力豊かな人\n💡親しまれやすい')"><img class="share_sns" src="sns\copydot.png">コピーで共有する</a></li>
-    </ul>
-    <button class="share_btn" onclick="clickSherebox2('share_boxid2','answer_0011','answer_0012')">結果を共有する</button>
-
-  
-     <div class="return-btn">
-      <a id="answer_0012" class="return" href="https://rakkochchch.github.io/2023schoolfestival.ury/stamp">やり直す</a>
-      <p>&nbsp;</p>
-<p>&nbsp;</p>
-     </div>
-   </div>
-
+</ul>
+<button class="share_btn" onclick="clickSherebox2('share_boxid2','answer_0011','answer_0012')">結果を共有する</button>
+<div class="return-btn">
+  <a id="answer_0012" class="return" href="https://rakkochchch.github.io/2023schoolfestival.ury/stamp">やり直す</a>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+  <p>&nbsp;</p>
+</div>
+</div>
  </div>
 
  
@@ -226,8 +352,11 @@
 <div id="answer_03" style="display: none;">
   <div class="result_theme ">
 </div>
+
 <div id="answer_0021">
 <div class="ddddd">
+  <div class="nes-container w-full is-dark is-rounded text-center"
+style="border-image-repeat: stretch; width: 100% !important; text-align: center;">
 <div class="result_type1 ">
     <h4 class="job">あなたは『勇者』タイプ</h4>
 </div>
@@ -239,17 +368,21 @@
 </div>
 </div>
 </div>
-
+</div>
 <ul id="share_boxid3" class="share_box" style="display: none;">
+  <div id="ff" class="nes-container w-full is-dark is-rounded text-center"
+  style="border-image-repeat: stretch; ">
   <li> <a class="share" href="https://twitter.com/intent/tweet?url=https://rakkochchch.github.io/2023schoolfestival.ury/stamp&text=%E7%A7%81%E3%81%AF%E3%80%8E%E5%8B%87%E8%80%85%E3%80%8F%E3%82%BF%E3%82%A4%E3%83%97%E3%81%A7%E3%81%97%E3%81%9F%0A%F0%9F%92%A1%E7%B2%98%E3%82%8A%E5%BC%B7%E3%81%84%E4%BA%BA%0A%F0%9F%92%A1%E3%81%98%E3%81%A3%E3%81%8F%E3%82%8A%E8%80%83%E3%81%88%E3%82%8B%E4%BA%BA%0A&hashtags=%E4%BA%AC%E9%83%BD%E8%8A%B8%E8%A1%93%E5%A4%A7%E5%AD%A6%E9%99%84%E5%B1%9E%E9%AB%98%E7%AD%89%E5%AD%A6%E6%A0%A1&hashtags=%E6%96%87%E5%8C%96%E7%A5%AD" target="_blank" rel="nofollow noopener noreferrer"><img class="share_sns" src="sns\sns_twitter.png">twitterで共有する</a></li>
-  <li> <a href="http://line.me/R/msg/text/?https://rakkochchch.github.io/2023schoolfestival.ury/stamp%0a私は『勇者』タイプでした%0a💡粘り強い人%0a💡じっくり考える人" target="_blank" rel="nofollow noopener"><img class="share_sns" src="sns\2023-08-22_02.04.11.png">LINEで共有する</a></li>
-  <li> <a class="share" id="copy" onclick="clickcopy('https://rakkochchch.github.io/2023schoolfestival.ury/stamp?\n私は『勇者』タイプでした\n💡粘り強い人\n💡じっくり考える人')"><img class="share_sns" src="sns\copydot.png">コピーで共有する</a></li>
+  <li> <a href="http://line.me/R/msg/text/?https://rakkochchch.github.io/2023schoolfestival.ury/stamp%0a私は『勇者』タイプでした%0a💡粘り強い人%0a💡じっくり考える人" target="_blank" rel="nofollow noopener"><img class="share_sns" src="sns\2023-08-22_02.04.11.png">LINEで共有する&nbsp;</a></li>
+  <li> <a class="share" id="copy" onclick="clickcopy('https://rakkochchch.github.io/2023schoolfestival.ury/stamp?\n私は『勇者』タイプでした\n💡粘り強い人\n💡じっくり考える人')"><img class="share_sns" src="sns\copydot.png">コピーで共有する&nbsp;</a></li>
+</div>
 </ul>
 <button class="share_btn" onclick="clickSherebox2('share_boxid3','answer_0021','answer_0022')">結果を共有する</button>
 
 
 <div class="return-btn">
 <a id="answer_0022" class="return" href="https://rakkochchch.github.io/2023schoolfestival.ury/stamp">やり直す</a>
+<p>&nbsp;</p>
 <p>&nbsp;</p>
 <p>&nbsp;</p>
 </div>
@@ -265,8 +398,11 @@
   <div class="result_theme ">
 
 </div>
+
 <div id="answer_0031">
 <div class="ddddd">
+  <div class="nes-container w-full is-dark is-rounded text-center"
+style="border-image-repeat: stretch;">
 <div class="result_type1 ">
     <h4 class="job">あなたは『魔法使い』タイプ</h4>
 </div>
@@ -278,11 +414,14 @@
 </div>
 </div>
 </div>
-
+</div>
 <ul id="share_boxid4" class="share_box" style="display: none;">
+  <div id="ff" class="nes-container w-full is-dark is-rounded text-center"
+  style="border-image-repeat: stretch;">
   <li> <a class="share" href="https://twitter.com/intent/tweet?url=https://rakkochchch.github.io/2023schoolfestival.ury/stamp&text=%E7%A7%81%E3%81%AF%E3%80%8E%E9%AD%94%E6%B3%95%E4%BD%BF%E3%81%84%E3%80%8F%E3%82%BF%E3%82%A4%E3%83%97%E3%81%A7%E3%81%97%E3%81%9F%0A%F0%9F%92%A1%E5%91%A8%E3%82%8A%E3%82%92%E7%AB%8B%E3%81%A6%E3%82%8B%E4%BA%BA%0A%F0%9F%92%A1%E3%81%8A%E3%81%A8%E3%81%AA%E3%81%97%E3%81%84%E4%BA%BA%0A&hashtags=%E4%BA%AC%E9%83%BD%E8%8A%B8%E8%A1%93%E5%A4%A7%E5%AD%A6%E9%99%84%E5%B1%9E%E9%AB%98%E7%AD%89%E5%AD%A6%E6%A0%A1&hashtags=%E6%96%87%E5%8C%96%E7%A5%AD" target="_blank" rel="nofollow noopener noreferrer"><img class="share_sns" src="sns\sns_twitter.png">twitterで共有する</a></li>
-  <li> <a href="http://line.me/R/msg/text/?https://rakkochchch.github.io/2023schoolfestival.ury/stamp%0a私は『魔法使い』タイプでした%0a💡周りを立てる人%0a💡おとなしい人" target="_blank" rel="nofollow noopener"><img class="share_sns" src="sns\2023-08-22_02.04.11.png">LINEで共有する</a></li>
-  <li> <a class="share" id="copy" onclick="clickcopy('https://rakkochchch.github.io/2023schoolfestival.ury/stamp?\n私は『魔法使い』タイプでした\n💡周りを立てる人\n💡おとなしい人')"><img class="share_sns" src="sns\copydot.png">コピーで共有する</a></li>
+  <li> <a href="http://line.me/R/msg/text/?https://rakkochchch.github.io/2023schoolfestival.ury/stamp%0a私は『魔法使い』タイプでした%0a💡周りを立てる人%0a💡おとなしい人" target="_blank" rel="nofollow noopener"><img class="share_sns" src="sns\2023-08-22_02.04.11.png">LINEで共有する&nbsp;</a></li>
+  <li> <a class="share" id="copy" onclick="clickcopy('https://rakkochchch.github.io/2023schoolfestival.ury/stamp?\n私は『魔法使い』タイプでした\n💡周りを立てる人\n💡おとなしい人')"><img class="share_sns" src="sns\copydot.png">コピーで共有する&nbsp;</a></li>
+</div>
 </ul>
 <button class="share_btn" onclick="clickSherebox2('share_boxid4','answer_0031','answer_0032')">結果を共有する</button>
 
@@ -291,11 +430,11 @@
 <a id="answer_0032" class="return" href="https://rakkochchch.github.io/2023schoolfestival.ury/stamp">やり直す</a>
 <p>&nbsp;</p>
 <p>&nbsp;</p>
+<p>&nbsp;</p>
 </div>
 </div>
 
 </div>
-
 
 
 
