@@ -59,7 +59,7 @@ Google Chrome（最新バージョン）
 
 Safari（最新バージョン）
 
-
+最適な結果には、Android端末からGoogle Chrome の最新バージョンを使用してください。
 ```
 
 > **Warning**
