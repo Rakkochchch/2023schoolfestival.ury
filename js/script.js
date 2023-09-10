@@ -135,52 +135,6 @@ if(p1.style.display=="none"){
 
 
 
-  function observeElements(selector, rootMargin, threshold, typeSpeed) {
-    const typeTargets = document.querySelectorAll(selector);
-
-    let options = {
-        rootMargin: rootMargin || '0px',
-        threshold: threshold || 0.5
-    };
-
-    let callback = (entries, observer) => {
-        entries.forEach(entry => {
-            if (entry.intersectionRatio > options.threshold && !entry.target.classList.contains('active')) {
-                let typeContent = entry.target.textContent;
-                let typeSprit = typeContent.split('');
-                entry.target.textContent = '';
-                entry.target.classList.add('active');
-
-                let typeLength = 0;
-                let typeInterval = setInterval(() => {
-                    if (typeSprit[typeLength] === undefined) {
-                        clearInterval(typeInterval);
-                        return false;
-                    }
-                    entry.target.textContent += typeSprit[typeLength];
-                    typeLength++;
-                }, typeSpeed);
-
-            }
-        });
-    };
-
-    let observer = new IntersectionObserver(callback, options);
-
-    typeTargets.forEach(e => {
-        observer.observe(e);
-    });
-}
-
-//
-observeElements('.q_00', '0px', 0.5, 50);
-observeElements('#btnb', '0px', 0.5, 50);
-observeElements('.job', '0px', 0.5, 50);
-observeElements('.test121', '0px', 0.5, 50);
-observeElements('.test122', '0px', 0.5, 50);
-observeElements('.PVV', '0px', 0.5, 50);
-observeElements('.sns_twitterclass_li', '0px', 0.5, 50);
-
 
 
 
@@ -198,4 +152,142 @@ function clickcopy(text){
 }
 
 
+function typedechar(typedeid,type_name){
 
+    var typed = new Typed(typedeid, {
+    strings: [type_name,],	
+    typeSpeed: 50,
+    backSpeed: 0,
+    startDelay: 0,
+    loop: false,
+    onStop:true,
+    cursorChar: "",
+
+    smartBackspace: true,
+    });
+
+    
+    }
+function typede(typedeid,type_name){
+
+    var typed = new Typed(typedeid, {
+    strings: [type_name,],	
+    typeSpeed: 50,
+    backSpeed: 0,
+    startDelay: 0,
+    loop: false,
+    smartBackspace: true,
+    
+    });
+
+    
+    }
+
+    function typede4(typedeid){
+
+        var typed = new Typed(typedeid, {
+        strings: ["<a onclick=type2in()>あなたの役職診断(全6問)</a>","<a onclick=type2in()>診断スタート</a>"],	
+        typeSpeed: 30,
+        backSpeed: 0,
+        startDelay: 0,
+        loop: false,
+        smartBackspace: true,
+        
+        });
+    
+        
+        }
+        
+
+        typede4("#typed-sample");
+
+    function type2in(){
+
+    setTimeout(() => {
+        typedechar("#typed-sample2_1","当てはまる&nbsp;&nbsp;&nbsp;&nbsp;");
+        
+    }, );
+
+    setTimeout(() => {
+        typedechar("#typed-sample2_2","判断できない&nbsp;&nbsp;");
+    }, 600);
+
+    setTimeout(() => {
+        typedechar("#typed-sample2_3","当てはまらない");
+    }, 1100);
+}
+
+
+    function type3in(){
+        setTimeout(() => {
+            typedechar("#typed-sample3_1","当てはまる&nbsp;&nbsp;&nbsp;&nbsp;");
+        }, );
+    
+        setTimeout(() => {
+            typedechar("#typed-sample3_2","判断できない&nbsp;&nbsp;");
+        }, 600);
+    
+        setTimeout(() => {
+            typedechar("#typed-sample3_3","当てはまらない");
+        }, 1100);
+    }
+
+
+
+    function type4in(){
+        setTimeout(() => {
+            typedechar("#typed-sample4_1","当てはまる&nbsp;&nbsp;&nbsp;&nbsp;");
+        }, );
+    
+        setTimeout(() => {
+            typedechar("#typed-sample4_2","判断できない&nbsp;&nbsp;");
+        }, 600);
+    
+        setTimeout(() => {
+            typedechar("#typed-sample4_3","当てはまらない");
+        }, 1100);
+    }
+
+
+    function type5in(){
+        setTimeout(() => {
+            typedechar("#typed-sample5_1","当てはまる&nbsp;&nbsp;&nbsp;&nbsp;");
+        }, );
+    
+        setTimeout(() => {
+            typedechar("#typed-sample5_2","判断できない&nbsp;&nbsp;");
+        }, 600);
+    
+        setTimeout(() => {
+            typedechar("#typed-sample5_3","当てはまらない");
+        }, 1100);
+    }
+
+
+    function type6in(){
+        setTimeout(() => {
+            typedechar("#typed-sample6_1","当てはまる&nbsp;&nbsp;&nbsp;&nbsp;");
+        }, );
+    
+        setTimeout(() => {
+            typedechar("#typed-sample6_2","判断できない&nbsp;&nbsp;");
+        }, 600);
+    
+        setTimeout(() => {
+            typedechar("#typed-sample6_3","当てはまらない");
+        }, 1100);
+    }
+
+    function type7in(){
+        setTimeout(() => {
+            typedechar("#typed-sample7_1","当てはまる&nbsp;&nbsp;&nbsp;&nbsp;");
+        }, );
+    
+        setTimeout(() => {
+            typedechar("#typed-sample7_2","判断できない&nbsp;&nbsp;");
+        }, 600);
+    
+        setTimeout(() => {
+            typedechar("#typed-sample7_3","当てはまらない");
+        }, 1100);
+    }

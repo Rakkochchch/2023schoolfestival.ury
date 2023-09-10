@@ -147,3 +147,28 @@ document.getElementById("mainclass").style.display ="block";
     }
       
   }
+
+
+
+  $(function(){
+      $("#type1-in").mgGlitch({
+          // trueならプラグインを終了
+          destroy : false, 
+          // falseならグリッチ処理を停止
+          glitch: true, 
+          // falseなら拡縮を終了
+          scale: true, 
+          // falseで画像の混乱を終了
+          blend : true, 
+          // エフェクトタイプを指定
+          blendModeType : "hue",
+          // 1つ目のグリッチ用要素の最短ディレイ秒数
+          glitch1TimeMin : 200, 
+          // 1つ目のグリッチ用要素の最長ディレイ秒数
+          glitch1TimeMax : 400,
+          // 2つ目のグリッチ用要素の最短ディレイ秒数
+          glitch2TimeMin : 10, 
+          // 2つ目のグリッチ用要素の最長ディレイ秒数
+          glitch2TimeMax : 100, 
+      });
+  });
