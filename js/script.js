@@ -280,14 +280,14 @@ function typede(typedeid,type_name){
 
     function type7in(){
         setTimeout(() => {
-            typedechar("#typed-sample7_1","当てはまる&nbsp;&nbsp;&nbsp;&nbsp;");
+            typedechar("#typed-sample7_1","勉強する&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;");
         }, );
     
         setTimeout(() => {
-            typedechar("#typed-sample7_2","判断できない&nbsp;&nbsp;");
+            typedechar("#typed-sample7_2","友達と出かける");
         }, 600);
     
         setTimeout(() => {
-            typedechar("#typed-sample7_3","当てはまらない");
+            typedechar("#typed-sample7_3","のんびりする&nbsp;&nbsp;");
         }, 1100);
     }
