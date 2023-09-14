@@ -13,8 +13,10 @@
 }
 html{
 	background-color: black;
+  -webkit-appearance: none;
 }
-
+input, button, select, textarea {
+  -webkit-appearance: none;}
 span {
 	font-family: "MyFont22" !important;
 }

@@ -51,3 +51,8 @@
         font-size: 40px;
     }
   }
+
+
+  html{
+    -webkit-appearance: none;
+  }

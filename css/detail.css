@@ -9,3 +9,10 @@
     width: 90%;
     margin: auto;
 }
+
+html{
+    -webkit-appearance: none;
+  }
+
+  input, button, select, textarea {
+    -webkit-appearance: none;}

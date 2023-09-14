@@ -9,7 +9,8 @@
     font-family: 'Nintendoid1';
     font-size: 100PX;
 }
-
+input, button, select, textarea {
+    -webkit-appearance: none;}
 .home_news_p:hover{
     color : #002cee !important;
   }

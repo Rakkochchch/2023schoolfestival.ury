@@ -79,3 +79,9 @@ color: rgb(255, 255, 255);
   }
 
 
+html{
+  -webkit-appearance: none;
+}
+
+input, button, select, textarea {
+  -webkit-appearance: none;}
