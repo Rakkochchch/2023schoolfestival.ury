@@ -85,3 +85,9 @@ html{
 
 input, button, select, textarea {
   -webkit-appearance: none;}
+
+
+  .submit-btn {
+    margin-top: 20px;
+    -webkit-appearance: none;
+}
