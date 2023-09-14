@@ -80,14 +80,17 @@ color: rgb(255, 255, 255);
 
 
 html{
-  -webkit-appearance: none;
+  appearance: none;
+
 }
 
 input, button, select, textarea {
-  -webkit-appearance: none;}
+  appearance: none;
+}
 
 
   .submit-btn {
     margin-top: 20px;
-    -webkit-appearance: none;
+    appearance: none;
+
 }
