@@ -54,7 +54,7 @@ function type3in(){
     applyMosaicInAnimation('#type3-in', 1200, 5);
 }
 function type4in(){
-   typede("#typed-sample4","こうなったら　平和も何も　あったもんじゃない　きょうあくな　魔物は　すきかってに　あばれだし　芸付は　さながら　むほうちたいとなってしまった")
+   typede("#typed-sample4","こうなったら　平和も何も　あったもんじゃない　きょうあくな　魔物は　すきかってに　あばれだし　この国は　さながら　むほうちたいとなってしまった")
     applyMosaicInAnimation('#type4-in', 1200, 5);
 }
 function type5in(){

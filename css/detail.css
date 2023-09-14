@@ -1,0 +1,11 @@
+.detail_h3 {
+    font-size: 35px;
+}
+
+.detail_p3 {
+    margin-bottom: 20px !important;
+    font-size: 19px;
+    border-bottom: 3px solid #222222;
+    width: 90%;
+    margin: auto;
+}

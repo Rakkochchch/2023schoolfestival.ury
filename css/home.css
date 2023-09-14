@@ -404,7 +404,7 @@ width: 90%;
     margin-bottom: 0%;
 }
 .detail_p2{
-    margin-bottom: 200px !important;
+    margin-bottom: 20px !important;
    
     border-bottom: 3px solid #222222;
     width: 80%;
@@ -967,6 +967,7 @@ text-align: center
 
 
 
+
   .sns2 {
     margin-top: -2px;
     margin-bottom: 0.5rem;
@@ -979,6 +980,6 @@ text-align: center
 
 
   #lightbox img {
-    width:100%;
+width: 100%;
   
     } 
