@@ -119,7 +119,16 @@ input, button, select, textarea {
 
 #ff {
     letter-spacing: 2px;
+
 } 
+
+#hhg{
+  letter-spacing: 2px;
+  text-align: justify;
+  width: 70%;
+  margin-left: 50px;
+  margin-right: 50px;
+}
 
 #mainclass{
     color: #fff !important;
@@ -198,4 +207,16 @@ h1, h2, h3, h4, h5, h6 {
 .test122{
 
     margin-top: 20px;
+}
+
+
+
+.nes-container.is-rounded.is-dark {
+  border-image-slice: 3;
+  border-image-width: 4;
+  font-size: 24px;
+  margin: auto;
+  width: auto;
+  text-align: justify;
+
 }
