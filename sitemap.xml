@@ -1,53 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<sitemapindex xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
 
-   <url>
+   <sitemap>
 
       <loc>https://rakkochchch.github.io/2023schoolfestival.ury/home</loc>
 
       <lastmod>2023-09-16</lastmod>
 
-      <changefreq>monthly</changefreq>
+   </sitemap>
 
-      <priority>0.8</priority>
+   <sitemap>
 
-   </url>
+      <loc>https://rakkochchch.github.io/2023schoolfestival.ury/story</loc>
 
-   <url>
+      <lastmod>20023-09-16</lastmod>
 
-      <loc>http://www.example.com/catalog?item=12&amp;desc=vacation_hawaii</loc>
+   </sitemap>
 
-      <changefreq>weekly</changefreq>
-
-   </url>
-
-   <url>
-
-      <loc>http://www.example.com/catalog?item=73&amp;desc=vacation_new_zealand</loc>
-
-      <lastmod>2004-12-23</lastmod>
-
-      <changefreq>weekly</changefreq>
-
-   </url>
-
-   <url>
-
-      <loc>http://www.example.com/catalog?item=74&amp;desc=vacation_newfoundland</loc>
-
-      <lastmod>2004-12-23T18:00:15+00:00</lastmod>
-
-      <priority>0.3</priority>
-
-   </url>
-
-   <url>
-
-      <loc>http://www.example.com/catalog?item=83&amp;desc=vacation_usa</loc>
-
-      <lastmod>2004-11-23</lastmod>
-
-   </url>
-
-</urlset>
+</sitemapindex>
