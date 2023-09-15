@@ -2,28 +2,9 @@
 
 # 2023年度文化祭ホームページ
 
-## 使用したフォント
 
-PixelMplus10-Regular
 
-misaki_gothic.ttf
-
-DotGothic16
-
-Nintendoid 1
-
-## デモ
-![2023年文化祭ホーム - Google Chrome 2023_09_09 19_17_58](https://github.com/Rakkochchch/2023schoolfestival.ury/assets/124496617/003657ae-e38a-46ab-abe2-3b890fad1789)
-
-## 使い方
-<details>
-  
-[ページへ移る](https://rakkochchch.github.io/2023schoolfestival.ury/home)
-
-</details>
-
-## 環境
-**推奨デバイス**
+デバイス**
 
 モバイルウェブブラウザ―**＞**デスクトップブラウザー
 
@@ -65,6 +46,29 @@ Safari（最新バージョン）
 > **Warning**
 > iPhone6/7/8では意図しないバグが発生することがあります
 
+
+## 使用したフォント
+
+PixelMplus10-Regular
+
+misaki_gothic.ttf
+
+DotGothic16
+
+Nintendoid 1
+
+## デモ
+![2023年文化祭ホーム - Google Chrome 2023_09_09 19_17_58](https://github.com/Rakkochchch/2023schoolfestival.ury/assets/124496617/003657ae-e38a-46ab-abe2-3b890fad1789)
+
+## 使い方
+<details>
+  
+[ページへ移る](https://rakkochchch.github.io/2023schoolfestival.ury/home)
+
+</details>
+
+## 環境
+**推奨
 
 ## 文責
 
