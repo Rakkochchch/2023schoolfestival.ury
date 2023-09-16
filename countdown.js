@@ -79,7 +79,7 @@ ontime();
 
  */
 function ontime() {
-const dead = new Date( 2023, (9- 1), 16 , 9 , 0 ); // 締め切り
+const dead = new Date( 2023, (9- 1), 17 , 9 , 40 ); // 締め切り
 const deadLine = parseInt( dead / 1000 ); // timestampに変更する
 const dateCurrent = parseInt( new Date() / 1000 ); // 現在時刻を取得
 
