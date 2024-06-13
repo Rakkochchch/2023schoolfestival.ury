@@ -72,7 +72,7 @@ Nintendoid 1
 
 ## 文責
 
-* 制作者:　RYO
+* 制作者:　chashironeko
 
 
 ## ライセンス
